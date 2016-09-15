@@ -12,6 +12,9 @@
 		9E2702ED1D8B150E007605F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2702EB1D8B150E007605F0 /* Main.storyboard */; };
 		9E2702EF1D8B150E007605F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2702EE1D8B150E007605F0 /* Assets.xcassets */; };
 		9E2702F21D8B150E007605F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2702F01D8B150E007605F0 /* LaunchScreen.storyboard */; };
+		9E2702FA1D8B181D007605F0 /* SwoggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2702F91D8B181D007605F0 /* SwoggleView.swift */; };
+		9E2702FC1D8B1830007605F0 /* SwoggleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2702FB1D8B1830007605F0 /* SwoggleViewController.swift */; };
+		9E2702FE1D8B183C007605F0 /* SwoggleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2702FD1D8B183C007605F0 /* SwoggleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9E2702EE1D8B150E007605F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E2702F11D8B150E007605F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E2702F31D8B150E007605F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2702F91D8B181D007605F0 /* SwoggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwoggleView.swift; sourceTree = "<group>"; };
+		9E2702FB1D8B1830007605F0 /* SwoggleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwoggleViewController.swift; sourceTree = "<group>"; };
+		9E2702FD1D8B183C007605F0 /* SwoggleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwoggleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				9E2702EE1D8B150E007605F0 /* Assets.xcassets */,
 				9E2702F01D8B150E007605F0 /* LaunchScreen.storyboard */,
 				9E2702F31D8B150E007605F0 /* Info.plist */,
+				9E2702F91D8B181D007605F0 /* SwoggleView.swift */,
+				9E2702FB1D8B1830007605F0 /* SwoggleViewController.swift */,
+				9E2702FD1D8B183C007605F0 /* SwoggleModel.swift */,
 			);
 			path = Swoggle;
 			sourceTree = "<group>";
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E2702FA1D8B181D007605F0 /* SwoggleView.swift in Sources */,
+				9E2702FC1D8B1830007605F0 /* SwoggleViewController.swift in Sources */,
 				9E2702EA1D8B150E007605F0 /* ViewController.swift in Sources */,
 				9E2702E81D8B150D007605F0 /* AppDelegate.swift in Sources */,
+				9E2702FE1D8B183C007605F0 /* SwoggleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
