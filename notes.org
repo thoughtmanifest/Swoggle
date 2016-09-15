@@ -1,0 +1,14 @@
+* Swoggle notes
+- AppDelegate - main app runner
+
+- hover, tap option to get declaration and description of class
+
+** In storyboard
+- change custom class to swoggleviewcontroller
+- click on view, change to boggleview
+
+** Control + click + drag buttons to view
+
+- Swift Protocols are contracts, similar to interface
+
+protocols references need to be weak, otherwise protocols and observers will never be garbage collected.
